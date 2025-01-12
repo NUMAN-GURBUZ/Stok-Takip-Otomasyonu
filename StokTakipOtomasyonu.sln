@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.35319.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StokTakipOtomasyonu", "StokTakipOtomasyonu\StokTakipOtomasyonu.csproj", "{37F5BBE2-6DD9-4E46-8534-3C4A7C49DB8A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{561A889D-4D59-4F3D-9025-24FF3EEDF4CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37F5BBE2-6DD9-4E46-8534-3C4A7C49DB8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F5BBE2-6DD9-4E46-8534-3C4A7C49DB8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F5BBE2-6DD9-4E46-8534-3C4A7C49DB8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F5BBE2-6DD9-4E46-8534-3C4A7C49DB8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{561A889D-4D59-4F3D-9025-24FF3EEDF4CF}.Debug|Any CPU.ActiveCfg = Debug
+		{561A889D-4D59-4F3D-9025-24FF3EEDF4CF}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A67DC6C2-A201-4043-B1F7-0FC3D5AB7351}
+	EndGlobalSection
+EndGlobal

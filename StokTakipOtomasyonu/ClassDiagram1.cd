@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StokTakipOtomasyonu.Form1">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BECAIgEMBCcUBRAgACCQgAgCDAkjAAATICYZGb4HADo=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="FormMusteriEkleme" />
+      <Property Name="frmUrunEkle" />
+      <Property Name="frmMusterıLıstele" />
+      <Property Name="frmÜrünListeleme1" />
+      <Property Name="frmKategori" />
+      <Property Name="frmMarka" />
+      <Property Name="StokTakıpDataSet" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StokTakipOtomasyonu.FormMusteriEkleme" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAAAAIAAACAAABAoAACAAAACgAAIAAAAAEAAABAACAA=</HashCode>
+      <FileName>FormMusteriEkleme.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StokTakipOtomasyonu.frmKategori" Collapsed="true">
+    <Position X="8" Y="3.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAACAAABAgAACAAAASAAAIAGAAEEAACAAAAAA=</HashCode>
+      <FileName>frmKategori.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="kategoribilgileriTableAdapter" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StokTakipOtomasyonu.frmMarka" Collapsed="true">
+    <Position X="5.5" Y="3" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAACAgABAwAACEAAACAAAIAAAAEEAACBAAAAA=</HashCode>
+      <FileName>frmMarka.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="markabilgileriTableAdapter" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StokTakipOtomasyonu.frmMusterıLıstele" Collapsed="true">
+    <Position X="10.75" Y="1.25" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IABAAKQAACAAEBAoAECQIAAChEgAAQQAAAAAABAAAAA=</HashCode>
+      <FileName>frmMusterıLıstele.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MusterıDataTableAdapter" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StokTakipOtomasyonu.frmUrunEkle" Collapsed="true">
+    <Position X="3.75" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>9YIAAgAEACwABhCgIiSBBAACAQgAAABEACAACBQCBAA=</HashCode>
+      <FileName>frmUrunEkle.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="urunTableAdapter" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StokTakipOtomasyonu.frmUrünListele" Collapsed="true">
+    <Position X="5.25" Y="10.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>8QIAAQAEACwAjhCgQiTQAIASAQggAAAABAkBQEASEAg=</HashCode>
+      <FileName>frmÜrünListele.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StokTakipOtomasyonu.frmÜrünListeleme1" Collapsed="true">
+    <Position X="9.25" Y="2.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>9QIAgQAEACwAjhCgQiDQBIASAQgBACAABAABQFASEAg=</HashCode>
+      <FileName>frmÜrünListeleme1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StokTakipOtomasyonu.Program" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <AssociationLine Name="Form1" Type="StokTakipOtomasyonu.Form1" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="1.062" />
+        <Point X="7.5" Y="1.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Form1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StokTakipOtomasyonu.StokTakıpDataSet" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="StokTakipOtomasyonu.StokTakıpDataSet.sepetRow" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Delegate Name="StokTakipOtomasyonu.StokTakıpDataSet.urunRowChangeEventHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Class Name="StokTakipOtomasyonu.StokTakıpDataSet.satısRow" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Delegate Name="StokTakipOtomasyonu.StokTakıpDataSet.sepetRowChangeEventHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Class Name="StokTakipOtomasyonu.StokTakıpDataSet.satısDataTable" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="StokTakipOtomasyonu.StokTakıpDataSet.sepetDataTable" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Delegate Name="StokTakipOtomasyonu.StokTakıpDataSet.markabilgileriRowChangeEventHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="StokTakipOtomasyonu.StokTakıpDataSet.kategoribilgileriRowChangeEventHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Class Name="StokTakipOtomasyonu.StokTakıpDataSet.kategoribilgileriDataTable" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="StokTakipOtomasyonu.StokTakıpDataSet.sepetRowChangeEvent" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="StokTakipOtomasyonu.StokTakıpDataSet.satısRowChangeEvent" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="StokTakipOtomasyonu.StokTakıpDataSet.kategoribilgileriRowChangeEvent" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="StokTakipOtomasyonu.StokTakıpDataSet.MusterıDataDataTable" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Delegate Name="StokTakipOtomasyonu.StokTakıpDataSet.MusterıDataRowChangeEventHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Class Name="StokTakipOtomasyonu.StokTakıpDataSet.MusterıDataRowChangeEvent" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="StokTakipOtomasyonu.StokTakıpDataSet.markabilgileriRowChangeEvent" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="StokTakipOtomasyonu.StokTakıpDataSet.MusterıDataRow" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="StokTakipOtomasyonu.StokTakıpDataSet.urunDataTable" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="StokTakipOtomasyonu.StokTakıpDataSet.urunRowChangeEvent" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="StokTakipOtomasyonu.StokTakıpDataSet.kategoribilgileriRow" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="StokTakipOtomasyonu.StokTakıpDataSet.urunRow" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Delegate Name="StokTakipOtomasyonu.StokTakıpDataSet.satısRowChangeEventHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Class Name="StokTakipOtomasyonu.StokTakıpDataSet.markabilgileriRow" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="StokTakipOtomasyonu.StokTakıpDataSet.markabilgileriDataTable" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QCIAAAAQA0AIABJABAEAQAIgBghCYJgAAAAIAAEgBBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StokTakipOtomasyonu.Properties.Resources">
+    <Position X="7" Y="9.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StokTakipOtomasyonu.Properties.Settings" Collapsed="true">
+    <Position X="9.5" Y="10.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StokTakipOtomasyonu.StokTakıpDataSetTableAdapters.kategoribilgileriTableAdapter" Collapsed="true">
+    <Position X="8" Y="4.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StokTakipOtomasyonu.StokTakıpDataSetTableAdapters.markabilgileriTableAdapter" Collapsed="true">
+    <Position X="4.75" Y="4.25" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StokTakipOtomasyonu.StokTakıpDataSetTableAdapters.MusterıDataTableAdapter" Collapsed="true">
+    <Position X="11.5" Y="2.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StokTakipOtomasyonu.StokTakıpDataSetTableAdapters.satısTableAdapter" Collapsed="true">
+    <Position X="2.25" Y="10.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StokTakipOtomasyonu.StokTakıpDataSetTableAdapters.sepetTableAdapter" Collapsed="true">
+    <Position X="13.25" Y="9" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StokTakipOtomasyonu.StokTakıpDataSetTableAdapters.urunTableAdapter" Collapsed="true">
+    <Position X="3.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAACAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StokTakipOtomasyonu.StokTakıpDataSetTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="12.5" Y="10.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="StokTakipOtomasyonu.StokTakıpDataSetTableAdapters.TableAdapterManager.UpdateOrderOption" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Class Name="StokTakipOtomasyonu.StokTakıpDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQAAACAIAARRBAEBAACEMAIkAAACgCQAAAQAAAAIBgQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
